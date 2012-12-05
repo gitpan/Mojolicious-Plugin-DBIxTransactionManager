@@ -15,6 +15,7 @@ WriteMakefile(
     PREREQ_PM => {
         'Test::More' => 0,
         'DBIx::TransactionManager' => 1.11,
+        'Mojolicious' => 3.63, 
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Mojolicious-Plugin-DBIxTransactionManager-*' },
